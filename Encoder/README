@@ -1,0 +1,45 @@
+# 4:2 Encoder Using Verilog HDL
+
+## Introduction
+
+An encoder is a combinational logic circuit that converts active input signals into a coded binary output. In this project, a 4:2 encoder is implemented using Verilog HDL.
+
+## Objective
+
+The objective of this project is to design, implement, and simulate a 4:2 encoder.
+
+## Inputs and Outputs
+
+### Inputs
+
+* D0
+* D1
+* D2
+* D3
+
+### Outputs
+
+* Y0
+* Y1
+
+## Boolean Equations
+
+Y0 = D1 + D3
+
+Y1 = D2 + D3
+
+## Software Requirements
+
+* Xilinx Vivado
+* ModelSim
+* Icarus Verilog
+
+## Applications
+
+* Data compression
+* Communication systems
+* Digital signal processing
+* Microprocessors
+
+## Conclusion
+The 4:2 encoder was successfully implemented using Verilog HDL. The simulation results verified the expected output values.
